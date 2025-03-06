@@ -581,28 +581,16 @@ PrefabInstance:
       addedObject: {fileID: 2146841887}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 744e01d3d39888e4bb092f1d04f82869, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2146841886}
+      addedObject: {fileID: 2146841891}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 744e01d3d39888e4bb092f1d04f82869, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2146841891}
+      addedObject: {fileID: 2146841892}
   m_SourcePrefab: {fileID: 100100000, guid: 744e01d3d39888e4bb092f1d04f82869, type: 3}
 --- !u!1 &2146841885 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 744e01d3d39888e4bb092f1d04f82869, type: 3}
   m_PrefabInstance: {fileID: 1780497447}
   m_PrefabAsset: {fileID: 0}
---- !u!75 &2146841886
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146841885}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 50}
-  m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!54 &2146841887
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -651,6 +639,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.2023847, y: 0.59999514, z: 3.149723}
   m_Center: {x: 0, y: 0.39472127, z: -0.1386593}
+--- !u!114 &2146841892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146841885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6839ef8a868c7b4cbd3fcaa190327dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  enginePower: 20
+  liftBooster: 0.5
+  drag: 0.001
+  angularDrag: 0.001
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
